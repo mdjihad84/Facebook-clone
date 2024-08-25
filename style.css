@@ -1,0 +1,106 @@
+
+body {
+    background: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 980px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 0 112px;
+    align-items: center;
+}
+.left-side {
+    flex-basis: 540px;
+}
+.left-side img {
+    width: 300px;
+    margin-bottom: -25px;
+}
+.left-side h2 {
+    color: #1c1e21;
+    font-size: 28px;
+    font-weight: normal;
+    padding-left: 30px;
+}
+.form-section {
+    flex-basis: 396px;
+    text-align: center;
+}
+.form-section form {
+    background: #fff;
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+.form-section input {
+    width: 92%;
+    display: block;
+    border: 1px solid #ddd;
+    padding: 14px 16px;
+    font-size: 17px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+.form-section input[type='button'] {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 16px;
+}
+.form-section a {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.form-section button[type='button'] {
+    background: #36a420;
+    border: 1px solid #36a420;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 6px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+/* footer section */
+.footer {
+    background: #fff;
+    padding: 25px 0;
+}
+.footer ul {
+    text-align: left;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.footer ul li a {
+    color: #737373;
+    font-size: 14px;
+    text-decoration: none;
+}
+.footer ul li a:hover {
+    text-decoration: underline;
+  }
+.footer p {
+    color: #737373;
+    font-size: 11px;
+    margin-left: 45px;
+}
